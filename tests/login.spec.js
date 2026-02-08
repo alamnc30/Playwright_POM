@@ -8,7 +8,7 @@ test('User can login successfully', async ({ page }) => {
   await loginPage.goto();
 
   // Step 2: Perform login
-  await loginPage.login('john.doe@example.com', 'SecurePass123!');
+  await loginPage.login('pintuny80@gmail.com', 'Welcome77#');
 
   // Step 3: Verify login success
   await loginPage.assertLoggedIn();
